@@ -1,0 +1,30 @@
+Partlist exported from C:/Users/Nacho/Documents/eagle/PICC/18f45502.sch at 27/12/2014 18:30:59
+
+Part Value         Package   Description                                                                                   
+C1   .1uF          C0402     CAPACITOR                                                                    
+C2   .33uF         C0402     CAPACITOR                                                                    
+C4   22pF          C0402     CAPACITOR                                                                    
+C5   22pF          C0402     CAPACITOR                                                                    
+C6   100n          C0402     CAPACITOR                                                                    
+C7   47u           TT2D5L    POLARIZED CAPACITOR                                                        
+C8   100n          C0402     CAPACITOR                                                                  
+IC1  PIC18F4550_40 DIL40     USB Microcontrollers with nanoWatt Technology High-Performance, Enhanced Flash, 28/40/44-Pin, 
+IC2  7805DT        TO252     Positive VOLTAGE REGULATOR                                                                    
+JP1                1X06      PIN HEADER                                                                                    
+JP9                1X02      PIN HEADER                                                                                    
+LED1               LED3MM    LED                                                                                           
+Q1   20MHz         HC49/S    CRYSTAL                                                                                       
+R1   10k           R0402     RESISTOR, American symbol                                                                     
+R2   10k           R0402     RESISTOR, European symbol                                                                     
+R3   10k           R0402     RESISTOR, American symbol                                                                     
+R4   1k            R0402     RESISTOR, European symbol                                                                     
+S3                 B3F-10XX  OMRON SWITCH                                                                                  
+S4                 B3F-10XX  OMRON SWITCH                                                                                  
+SV1                MA08-1    PIN HEADER                                                                                    
+SV2                MA03-1    PIN HEADER                                                                                    
+SV3                MA08-1    PIN HEADER                                                                                    
+SV4                MA08-1    PIN HEADER                                                                                    
+SV5                MA04-1    PIN HEADER                                                                                    
+SV7                1X07      PIN HEADER                                                                                    
+X1                 DCJ0202   DC POWER JACK                                                                                 
+X2   PN61729-S     PN61729-S BERG USB connector                                                                            
