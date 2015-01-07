@@ -15266,6 +15266,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="IC2" library="linear" deviceset="78*" device="DT" technology="05"/>
 <part name="C1" library="resistor" deviceset="C-EU" device="C0805K" value=".1uF"/>
 <part name="C2" library="resistor" deviceset="C-EU" device="C0805K" value=".33uF"/>
+<part name="R5" library="resistor" deviceset="R-EU_" device="R0805" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -15299,6 +15300,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="IC2" gate="A1" x="114.3" y="132.08"/>
 <instance part="C1" gate="G$1" x="129.54" y="127"/>
 <instance part="C2" gate="G$1" x="99.06" y="124.46" rot="R180"/>
+<instance part="R5" gate="G$1" x="-12.7" y="101.6" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -15450,9 +15452,14 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="C6" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="-30.48" y1="106.68" x2="-30.48" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="106.68" x2="-30.48" y2="109.22" width="0.1524" layer="91"/>
 <label x="-27.94" y="111.76" size="1.778" layer="95"/>
 <pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="-30.48" y1="109.22" x2="-30.48" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="106.68" x2="-12.7" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="109.22" x2="-30.48" y2="109.22" width="0.1524" layer="91"/>
+<junction x="-30.48" y="109.22"/>
 </segment>
 <segment>
 <wire x1="99.06" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
@@ -15703,11 +15710,16 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="27.94" y1="68.58" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="68.58" x2="12.7" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="71.12" x2="5.08" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="71.12" x2="5.08" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="71.12" x2="-7.62" y2="71.12" width="0.1524" layer="91"/>
 <junction x="5.08" y="71.12"/>
 <pinref part="IC1" gate="G$1" pin="RA5/AN4/!SS!/HLVDIN/C2OUT"/>
 <pinref part="SV3" gate="1" pin="3"/>
 <pinref part="S3" gate="1" pin="S1"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="-7.62" y1="71.12" x2="5.08" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="96.52" x2="-7.62" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="96.52" x2="-7.62" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-7.62" y="71.12"/>
 </segment>
 </net>
 <net name="N$19" class="0">
